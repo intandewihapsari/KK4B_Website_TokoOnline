@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.back{
+    padding:5px 0;
+    background-color: #fff;
+}
+.back ul li {
+    display: inline-block;
+    position: absolute;
+    top: 6%;
+    left: 10%;
+    color: #fff;
+    margin-right: 10px;
+}
+.bukunovel{
+    margin: 1px;
+    padding: 10px 0;
+    background-color:  rgb(224, 24, 24);
+    display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+img{
+    font-style: italic;
+    width: 180px; 
+    height: 200px;
+}
+.col1 {
+    border: 5px solid white;
+    background-color:  rgb(224, 24, 24);
+    padding: 10px 10 ;
+    margin: 20px;
+
+}
+.col1 .des{
+    border-top: 1px solid white;
+    color: white;
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;   
+}
